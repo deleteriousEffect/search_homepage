@@ -1,0 +1,27 @@
+%clearfix
+  &:after, &:before
+    content: ""
+    display: table
+  &:after
+    clear: both
+
+nav 
+  ul
+    list-style: none
+    text-align: center
+    height: 40px
+  li
+    float: right
+  a
+    text-decoration: none
+    display: block
+    float: left
+    margin: 10px 20px
+    
+.left-list
+  float: left
+.logo
+  @extend %clearfix 
+  height: 231px
+  margin-top: 20px
+
