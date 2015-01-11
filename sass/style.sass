@@ -12,33 +12,32 @@ body
 nav 
   height: 40px
   ul
+    float: right
+    height: 40px
     list-style: none
     text-align: center
-    height: 40px
-    float: right
   li
     @extend %clearfix 
     float: left
   a
-    text-decoration: none
     color: #000
     display: block
     margin: 10px 10px
+    text-decoration: none
     
 .bottom-nav
+  bottom: 10px
   position: fixed
   width: 100%
-  bottom: 10px
 
 .left-list
   float: left
   margin-left: -25px
 
 .logo
-  text-align: center
   margin-top: 185px
+  text-align: center
   img
-    height: 231px
     margin-top: 20px
     width: 269px
     height: 95px
@@ -46,16 +45,16 @@ nav
 form
   text-align: center
   input
-    margin: 0 auto
     border: solid 1px #c6c6c6
+    margin: 0 auto
     width: 572px
     &:focus
       border: solid 1px #4387FD
   button
+    background-color: #f1f1f1
     border: solid 1px #c6c6c6
     border-radius: 4px
-    width: 115px
-    height: 20px
     font-size: 11px
+    height: 20px
     margin: 15px 10px
-    background-color: #f1f1f1
+    width: 115px

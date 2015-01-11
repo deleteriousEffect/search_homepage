@@ -11,32 +11,31 @@ body {
 nav {
   height: 40px; }
   nav ul {
-    list-style: none;
-    text-align: center;
+    float: right;
     height: 40px;
-    float: right; }
+    list-style: none;
+    text-align: center; }
   nav li {
     float: left; }
   nav a {
-    text-decoration: none;
     color: #000;
     display: block;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+    text-decoration: none; }
 
 .bottom-nav {
+  bottom: 10px;
   position: fixed;
-  width: 100%;
-  bottom: 10px; }
+  width: 100%; }
 
 .left-list {
   float: left;
   margin-left: -25px; }
 
 .logo {
-  text-align: center;
-  margin-top: 185px; }
+  margin-top: 185px;
+  text-align: center; }
   .logo img {
-    height: 231px;
     margin-top: 20px;
     width: 269px;
     height: 95px; }
@@ -44,18 +43,18 @@ nav {
 form {
   text-align: center; }
   form input {
-    margin: 0 auto;
     border: solid 1px #c6c6c6;
+    margin: 0 auto;
     width: 572px; }
     form input:focus {
       border: solid 1px #4387FD; }
   form button {
+    background-color: #f1f1f1;
     border: solid 1px #c6c6c6;
     border-radius: 4px;
-    width: 115px;
-    height: 20px;
     font-size: 11px;
+    height: 20px;
     margin: 15px 10px;
-    background-color: #f1f1f1; }
+    width: 115px; }
 
 /*# sourceMappingURL=style.css.map */
