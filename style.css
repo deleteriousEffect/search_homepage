@@ -45,7 +45,10 @@ form {
   text-align: center; }
   form input {
     margin: 0 auto;
+    border: solid 1px #c6c6c6;
     width: 572px; }
+    form input:focus {
+      border: solid 1px #4387FD; }
   form button {
     border: solid 1px #c6c6c6;
     border-radius: 4px;
