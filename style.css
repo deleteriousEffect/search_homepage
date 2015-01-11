@@ -11,17 +11,24 @@ body {
 nav ul {
   list-style: none;
   text-align: center;
-  height: 40px; }
-nav li {
+  height: 40px;
   float: right; }
+nav li {
+  float: left; }
 nav a {
   text-decoration: none;
+  color: #000;
   display: block;
-  float: left;
   margin: 10px 10px; }
 
+.bottom-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0px; }
+
 .left-list {
-  float: left; }
+  float: left;
+  margin-left: -25px; }
 
 .logo {
   text-align: center; }
