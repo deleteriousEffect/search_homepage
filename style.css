@@ -8,30 +8,33 @@ body {
   font: arial, san-serif;
   font-size: 1em; }
 
-nav ul {
-  list-style: none;
-  text-align: center;
-  height: 40px;
-  float: right; }
-nav li {
-  float: left; }
-nav a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  margin: 10px 10px; }
+nav {
+  height: 40px; }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    height: 40px;
+    float: right; }
+  nav li {
+    float: left; }
+  nav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: 10px 10px; }
 
 .bottom-nav {
   position: fixed;
   width: 100%;
-  bottom: 0px; }
+  bottom: 10px; }
 
 .left-list {
   float: left;
   margin-left: -25px; }
 
 .logo {
-  text-align: center; }
+  text-align: center;
+  margin-top: 185px; }
   .logo img {
     height: 231px;
     margin-top: 20px;
@@ -44,8 +47,12 @@ form {
     margin: 0 auto;
     width: 572px; }
   form button {
+    border: solid 1px #c6c6c6;
+    border-radius: 4px;
     width: 115px;
     height: 20px;
-    font-size: 11px; }
+    font-size: 11px;
+    margin: 15px 10px;
+    background-color: #f1f1f1; }
 
 /*# sourceMappingURL=style.css.map */
